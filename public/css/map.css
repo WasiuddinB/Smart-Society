@@ -1,0 +1,28 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+}
+
+.block {
+  width: 19%;
+  height: 19%;
+  background-color: #ccc;
+  border: 1px solid #999;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 2%;
+  margin-bottom: 1%;
+}
